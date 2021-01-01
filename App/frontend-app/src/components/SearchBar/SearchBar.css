@@ -1,0 +1,18 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+}
+.input {
+  align-self: center;
+  height: 30px;
+  width: 350px;
+  border: 2px solid black;
+}
+.button {
+  background-color: lightgrey;
+  border: 2px solid black;
+  cursor: pointer;
+}

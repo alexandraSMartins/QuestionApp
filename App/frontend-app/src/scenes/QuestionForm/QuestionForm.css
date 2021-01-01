@@ -1,0 +1,36 @@
+.form-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  font-size: 14px;
+  display: grid;
+  grid-auto-flow: row;
+  height: 300px;
+  width: 500px;
+}
+.form-item {
+  align-self: center;
+  margin-right: 10px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  grid-template-columns: 1fr 4fr;
+}
+.buttons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+}
+.error {
+  margin-top: 10px;
+  color: red;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
